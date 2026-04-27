@@ -38,14 +38,16 @@ $isStudent = true;
 * Boolean: `$x = true;`
 * Array: `$x = [1, 2, 3];`
 * NULL: `$x = null;`
-
+* object type
+* resorce data type
+ * `var_dump($x)` // return type of x
 ---
 
 ## 4. Output
 
 ```php
-echo "Hello";
-print "Hello";
+echo "Hello";   // does not reurn
+print "Hello"; // returns 1
 ```
 
 ---
@@ -133,6 +135,12 @@ foreach ($arr as $value) {
 ---
 
 ## 8. Functions
+```
+global $x;
+
+PHP also stores all global variables in an array called $GLOBALS[index]. The index holds the name of the variable. This array is also accessible from within functions and can be used to update global variables directly.
+
+```
 
 ```php
 function greet($name) {

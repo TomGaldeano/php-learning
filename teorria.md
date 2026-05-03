@@ -40,7 +40,26 @@ $isStudent = true;
 * NULL: `$x = null;`
 * object type
 * resorce data type
- * `var_dump($x)` // return type of x
+
+```php
+$x = 5
+var_dump($x) // return type of x
+is_int($x)
+is_float($x)
+PHP_INT_MAX // The largest integer supported
+PHP_INT_MIN //The smallest integer supported
+PHP_INT_SIZE //  The size of an integer in bytes)
+PHP_FLOAT_MAX // The largest representable floating point number
+PHP_FLOAT_MIN // The smallest representable positive floating point number
+PHP_FLOAT_DIG // The number of decimal digits that can be rounded into a float and back without precision loss
+PHP_FLOAT_EPSILON // The smallest representable positive number x, so that x + 1.0 != 1.0
+is_finite() // return true if in range of allowed values
+is_infinite()
+is_nan() // An invalid calculation will return a NAN value, and is_nan() is used to check i
+intval() //function is used to get the integer value of a variable
+```
+### Casting
+
 ---
 
 ## 4. Output

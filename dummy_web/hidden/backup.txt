@@ -1,0 +1,5 @@
+[backup manifest]
+- /var/www/html/dummy_web/index.php
+- /var/www/html/dummy_web/hidden/credentials.txt
+- /var/www/html/secret.txt
+warning: backup file is for demo use only
